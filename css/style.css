@@ -1845,3 +1845,9 @@ canvas{
 	.arlo_tm_contact .form_wrapper ul{margin: 0px;}
 	.arlo_tm_contact .form_wrapper ul li{width: 100%;padding-left: 0px;}
 }
+
+/* Fix for p9.png image overflow */
+.abs_image[data-img-url*="p9.png"] {
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+}

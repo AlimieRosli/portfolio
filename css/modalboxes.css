@@ -279,7 +279,7 @@
 .arlo_tm_modalbox .additional_images ul li{
 	margin: 0px 0px 30px 0px;
 	float: left;
-	width: 50%;
+	width: 100%;
 	padding-left: 30px;
 }
 .arlo_tm_modalbox .additional_images ul li:nth-child(3n-2){
@@ -294,6 +294,7 @@
 }
 .arlo_tm_modalbox .additional_images ul li .my_image{
 	position: relative;
+	min-height: 400px;
 }
 .arlo_tm_modalbox .additional_images ul li .my_image img{
 	opacity: 0;
@@ -308,6 +309,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+/* Custom styling for images with object-fit contain */
+.arlo_tm_modalbox .additional_images ul li .my_image .main[style*="object-fit: contain"] {
+	background-size: contain;
 }
 
 /*Blog*/

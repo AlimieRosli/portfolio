@@ -611,11 +611,28 @@ h6 { font-size: 16px; }
 	min-height: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;   
+	justify-content: center;
+	/* background-image: url('../img/me/me13.jpg'); */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
 }
+/* .arlo_tm_home::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+} */
 .arlo_tm_home .content{
 	width: 100%;
 	text-align: center;
+	position: relative;
+	z-index: 2;
 }
 .arlo_tm_home .content h3{
 	font-size: 50px;
